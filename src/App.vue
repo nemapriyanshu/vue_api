@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+              <Apipractice/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Apipractice from './components/apipractice.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // My
+    Apipractice
+    
   }
 }
 </script>
@@ -20,7 +20,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #6cb419;
   margin-top: 60px;
 }
 </style>
